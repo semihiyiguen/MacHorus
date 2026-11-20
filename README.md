@@ -16,7 +16,7 @@ No account. No telemetry. No admin rights. Nothing leaves your Mac.
 ![No telemetry](https://img.shields.io/badge/telemetry-none-2ea44f)
 ![Dependencies: none](https://img.shields.io/badge/dependencies-none-2ea44f)
 
-[Quick start](#quick-start) · [Screenshots](#screenshots) · [Features](#features) · [Privacy](#privacy-and-security) · [Docs](#documentation)
+[Download](#download) · [Screenshots](#screenshots) · [Features](#features) · [Privacy](#privacy-and-security) · [Docs](#documentation)
 
 <img src="docs/images/overview-dark.png" width="720" alt="MacHorus overview in the expanded panel">
 
@@ -30,14 +30,16 @@ No account. No telemetry. No admin rights. Nothing leaves your Mac.
 - **Honest numbers.** Every value is verified against a macOS tool such as Activity Monitor, `top`, `nettop` or `pmset` ([how](docs/MEASUREMENTS.md)).
 - **Yours to arrange.** Every page is a board of widgets in five sizes, arranged like widgets on a phone, in a compact and an expanded panel.
 
-## Quick start
+## Download
 
-```bash
-git clone https://github.com/semihiyiguen/MacHorus.git && cd MacHorus
-make app && cp -R build/MacHorus.app /Applications/ && open /Applications/MacHorus.app
-```
+**[⬇ Download MacHorus 1.0.30 (DMG)](https://github.com/semihiyiguen/MacHorus/releases/latest)** · macOS 14.2+ · Apple Silicon & Intel
 
-Needs macOS 14.2+ and the Command Line Tools (`xcode-select --install`). Details in [Install](#install).
+Drag MacHorus into Applications. This build is not notarized by Apple yet, so macOS asks once on the first start:
+
+- **macOS 15 or later:** open MacHorus, click **Done**, then go to **System Settings → Privacy & Security → Open Anyway**.
+- **macOS 14:** right-click MacHorus → **Open** → **Open**.
+
+Prefer to build it yourself? See [Install](#install).
 
 ## Screenshots
 
@@ -80,7 +82,7 @@ Needs macOS 14.2+ and the Command Line Tools (`xcode-select --install`). Details
 
 ## Install
 
-There is no notarized download yet; building it takes a few minutes:
+Build from source (a few minutes):
 
 ```bash
 xcode-select --install          # Command Line Tools, if missing (no Xcode needed)
