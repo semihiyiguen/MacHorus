@@ -1,0 +1,2 @@
+/* Why MacHorus asks for system audio recording (per-app volume). */
+"NSAudioCaptureUsageDescription" = "MacHorus regelt den Ton einzelner Apps leiser oder stumm, wenn du das unter Werkzeuge → Ton pro App einstellst. Es nimmt nichts auf, speichert nichts, und nichts verlässt deinen Mac.";

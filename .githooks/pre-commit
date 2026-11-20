@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# Blocks secrets and internal identifiers before they enter the history.
+set -euo pipefail
+
+root="$(git rev-parse --show-toplevel)"
+
+if command -v gitleaks >/dev/null 2>&1; then
+  gitleaks git --pre-commit --staged --redact --verbose "$root"
+else
+  echo "pre-commit: gitleaks not installed - local secret scan skipped (brew install gitleaks to enable it)." >&2
+fi
+
+# Internal identifiers (hostnames, names, ...) live in a git-ignored file,
+# one extended regex per line, so the list itself never gets committed.
+patterns="$root/.githooks/forbidden-patterns.local"
+if [[ -s "$patterns" ]]; then
+  active="$(grep -Ev '^[[:space:]]*(#|$)' "$patterns" || true)"
+  if [[ -n "$active" ]] && git diff --cached -U0 --no-ext-diff \
+      | grep '^+' | grep -v '^+++' | grep -Ei -f <(printf '%s\n' "$active"); then
+    echo "pre-commit: staged changes contain internal identifiers (see .githooks/forbidden-patterns.local)." >&2
+    exit 1
+  fi
+fi

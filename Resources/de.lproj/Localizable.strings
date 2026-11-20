@@ -1,0 +1,1559 @@
+/* Menu bar item, read by VoiceOver. */
+"statusItem.accessibilityLabel" = "MacHorus";
+
+/* Quits the app (context menu and panel). */
+"menu.quit" = "MacHorus beenden";
+
+/* Footer: MacHorus' own CPU share and memory footprint. */
+"panel.selfUsage %@ %@" = "%1$@ CPU · %2$@";
+
+/* Tooltip of the footer. */
+"panel.selfUsage.help" = "CPU und Arbeitsspeicher, die MacHorus selbst gerade verbraucht. Wird nur gemessen, während das Fenster offen ist.";
+
+/* Opens the settings window. */
+"menu.settings" = "Einstellungen …";
+
+/* Permission state. */
+"permission.state.granted" = "Erteilt";
+
+/* Permission state for Automation. */
+"permission.state.perApp" = "Je App";
+
+/* Permission name. */
+"permission.accessibility" = "Bedienungshilfen";
+
+/* Permission name. */
+"permission.screenRecording" = "Bildschirmaufnahme";
+
+/* Permission name. */
+"permission.inputMonitoring" = "Eingabeüberwachung";
+
+/* Permission name. */
+"permission.camera" = "Kamera";
+
+/* Permission name. */
+"permission.microphone" = "Mikrofon";
+
+/* Permission name. */
+"permission.calendars" = "Kalender";
+
+/* Permission name. */
+"permission.fullDiskAccess" = "Festplattenvollzugriff";
+
+/* Permission name. */
+"permission.notifications" = "Mitteilungen";
+
+/* Permission name. */
+"permission.automation" = "Automation";
+
+/* Permission name. */
+"permission.bluetooth" = "Bluetooth";
+
+/* About page: version and build number. */
+"about.version %@ %@" = "Version %1$@ (%2$@)";
+
+/* About page tagline. */
+"about.tagline" = "Systemmonitor und Alltagswerkzeuge für den Mac in einer Menüleisten-App.";
+
+/* Panel section. */
+"panel.tab.overview" = "Übersicht";
+
+/* Category title. */
+"category.monitor.title" = "Systemmonitor";
+
+/* Category title. */
+"category.menuBar.title" = "Menüleiste & Alarme";
+
+/* Category title. */
+"category.windows.title" = "Fenster & Dock";
+
+/* Category title. */
+"category.input.title" = "Tastatur & Maus";
+
+/* Category title. */
+"category.clipboard.title" = "Zwischenablage & Dateien";
+
+/* Category title. */
+"category.audio.title" = "Ton & Mikrofon";
+
+/* Category title. */
+"category.display.title" = "Bildschirm & Energie";
+
+/* Category title. */
+"category.tools.title" = "Werkzeuge";
+
+/* Category title. */
+"category.island.title" = "Dynamic Island";
+
+/* Features summary title with counts. */
+"features.summary.title %@ %@" = "%1$@ von %2$@ Funktionen an";
+
+/* Features summary text. */
+"features.summary.message" = "Ausgeschaltete Funktionen belegen weder Speicher noch Rechenzeit.";
+
+/* Open at login, on the features page. */
+"settings.openAtLogin.title" = "Bei der Anmeldung öffnen";
+"settings.openAtLogin.message" = "MacHorus startet automatisch, wenn du dich anmeldest. Auch einstellbar unter Systemeinstellungen → Allgemein → Anmeldeobjekte.";
+"settings.openAtLogin.approval" = "In den Systemeinstellungen deaktiviert. Unter „Anmeldeobjekte“ wieder erlauben.";
+"settings.openAtLogin.openSettings" = "Anmeldeobjekte öffnen";
+
+/* Tooltip of the lock next to a feature fixed by policy. */
+"features.locked" = "Von deinem Administrator festgelegt";
+
+/* Permission not used by any feature. */
+"privacy.notInUse" = "Von keiner aktiven Funktion benötigt";
+
+/* Chip: permission not in use. */
+"privacy.notInUse.chip" = "Aus";
+
+/* Granted but unused permission. */
+"privacy.unneeded" = "Erteilt, wird aber nicht mehr benötigt – du kannst sie entziehen";
+
+/* Lists the features that need a permission. */
+"privacy.usedBy %@" = "Benötigt für %@";
+
+/* Button that opens System Settings. */
+"privacy.open" = "Öffnen";
+
+/* Panel section. */
+"panel.tab.monitor" = "Monitor";
+
+/* Monitor section. */
+"monitor.section.cpu" = "Prozessor";
+
+/* Monitor section. */
+"monitor.section.memory" = "Arbeitsspeicher";
+
+/* Monitor switched off. */
+"monitor.off.title" = "Systemmonitor ist aus";
+
+/* Monitor switched off. */
+"monitor.off.message" = "Er benötigt keine Berechtigung und misst nur, während du hinschaust.";
+
+/* Button that switches the monitor on. */
+"monitor.off.enable" = "Einschalten";
+
+/* CPU user and system share. */
+"monitor.cpu.split %@ %@" = "Benutzer %1$@ · System %2$@";
+
+/* Average load of performance cores. */
+"monitor.cpu.performance" = "Performance-Kerne";
+
+/* Average load of efficiency cores. */
+"monitor.cpu.efficiency" = "Effizienz-Kerne";
+
+/* Tooltip of the per-core bars. */
+"monitor.cpu.cores.help %@" = "Last jedes der %@ Kerne (Gold: Performance, Blau: Effizienz)";
+
+/* Memory used of total. */
+"monitor.memory.of %@" = "von %@";
+
+/* Used part under a memory or disk bar. */
+"monitor.used %@" = "Belegt %@";
+
+/* Free part under a memory or disk bar. */
+"monitor.free %@" = "Frei %@";
+
+/* Heading of the largest folders in the home folder. */
+"disk.usage.folders" = "Größte Ordner";
+
+/* Heading of the largest files. */
+"disk.usage.files" = "Größte Dateien";
+
+/* Button: measure the home folder. */
+"disk.usage.scan" = "Analysieren";
+
+/* Button: measure again. */
+"disk.usage.rescan" = "Neu analysieren";
+
+/* While measuring. */
+"disk.usage.scanning" = "Wird analysiert …";
+
+/* Before the first scan. */
+"disk.usage.hint" = "Zeigt, was im Benutzerordner am meisten Platz belegt. Beim ersten Mal fragt macOS nach Schreibtisch, Dokumente und Downloads. Es wird nichts gelöscht.";
+
+/* Folders macOS refused. */
+"disk.usage.denied %@" = "Ohne Zugriff nicht gezählt: %@";
+
+/* Time of the scan. */
+"disk.usage.asOf %@" = "Stand: %@";
+
+/* Help of a row. */
+"disk.usage.reveal" = "Im Finder zeigen";
+
+/* Memory breakdown. */
+"monitor.memory.app" = "App-Speicher";
+
+/* Memory breakdown. */
+"monitor.memory.wired" = "Fest belegt";
+
+/* Memory breakdown. */
+"monitor.memory.compressed" = "Komprimiert";
+
+/* Memory breakdown. */
+"monitor.memory.cached" = "Dateicache";
+
+/* Memory breakdown. */
+"monitor.memory.swap" = "Auslagerung (Swap)";
+
+/* Memory pressure. */
+"monitor.pressure.normal" = "Normal";
+
+/* Memory pressure. */
+"monitor.pressure.warning" = "Warnung";
+
+/* Memory pressure. */
+"monitor.pressure.critical" = "Kritisch";
+
+/* Monitor section. */
+"monitor.section.network" = "Netzwerk";
+
+/* Monitor section. */
+"monitor.section.disk" = "Festplatte";
+
+/* Monitor section. */
+"monitor.section.battery" = "Akku";
+
+/* Download rate. */
+"monitor.network.down" = "Download";
+
+/* Upload rate. */
+"monitor.network.up" = "Upload";
+
+/* Value when the download cannot be measured. */
+"monitor.network.unavailable" = "Nicht messbar";
+
+/* Explains why the download cannot be measured. */
+"monitor.network.blind" = "Ein Netzwerkfilter (z. B. Sicherheitssoftware) speist eingehende Daten neu ein, daher zählt macOS sie nicht pro Anschluss. Der Upload wird korrekt gemessen.";
+
+/* Primary network interface. */
+"monitor.network.interface" = "Anschluss";
+
+/* Local IPv4 address. */
+"monitor.network.ip" = "Lokale IP-Adresse";
+
+/* Disk free of total. */
+"monitor.disk.free %@" = "frei von %@";
+
+/* Disk read rate. */
+"monitor.disk.read" = "Lesen";
+
+/* Disk write rate. */
+"monitor.disk.write" = "Schreiben";
+
+/* Battery state. */
+"monitor.battery.charging" = "Wird geladen";
+
+/* Battery state. */
+"monitor.battery.onPower" = "Am Netzteil";
+
+/* Battery state. */
+"monitor.battery.discharging" = "Im Akkubetrieb";
+
+/* Time until empty. */
+"monitor.battery.remaining" = "Restlaufzeit";
+
+/* Time until full. */
+"monitor.battery.untilFull" = "Bis voll";
+
+/* Battery health as in System Settings. */
+"monitor.battery.health" = "Maximale Kapazität";
+
+/* Battery cycle count. */
+"monitor.battery.cycles" = "Ladezyklen";
+
+/* Battery power draw or charge. */
+"monitor.battery.power" = "Leistung";
+
+/* Monitor section. */
+"monitor.section.thermal" = "Temperaturen";
+
+/* Monitor section. */
+"monitor.section.gpu" = "Grafik";
+
+/* Caption next to the hottest CPU temperature. */
+"monitor.thermal.cpu" = "CPU (heißester Sensor)";
+
+/* Hottest sensor in the performance cores. */
+"monitor.thermal.performance" = "Performance-Kerne";
+
+/* Hottest sensor in the efficiency cores. */
+"monitor.thermal.efficiency" = "Effizienz-Kerne";
+
+/* Graphics temperature. */
+"monitor.thermal.gpu" = "Grafik";
+
+/* The graphics sensors report no value (exactly 30.00 °C): the graphics are mostly asleep. */
+"monitor.thermal.gpu.idle" = "im Ruhezustand";
+
+/* Die temperature, where the chip has no known core sensors. */
+"monitor.thermal.die" = "Chip";
+
+/* SSD temperature. */
+"monitor.thermal.ssd" = "SSD";
+
+/* Battery temperature. */
+"monitor.thermal.battery" = "Akku";
+
+/* The one fan of this Mac. */
+"monitor.thermal.fan" = "Lüfter";
+
+/* One of several fans, numbered. */
+"monitor.thermal.fan.numbered %@" = "Lüfter %@";
+
+/* Fan is not spinning. */
+"monitor.thermal.fan.off" = "Aus";
+
+/* Fan speed. */
+"monitor.thermal.fan.rpm %@" = "%@ U/min";
+
+/* Thermal state: no limits. */
+"monitor.thermal.pressure.nominal" = "Normal";
+
+/* Thermal state: slightly limited. */
+"monitor.thermal.pressure.fair" = "Erhöht";
+
+/* Thermal state: performance limited. */
+"monitor.thermal.pressure.serious" = "Hoch";
+
+/* Thermal state: strongly limited. */
+"monitor.thermal.pressure.critical" = "Kritisch";
+
+/* No sensors found. */
+"monitor.thermal.unavailable" = "Keine bekannten Temperatursensoren auf diesem Mac, oder sie sind per Richtlinie abgeschaltet.";
+
+/* Graphics model and its core count. */
+"monitor.gpu.model %@ %@" = "%1$@ · %2$@ Kerne";
+
+/* Memory the graphics use right now. */
+"monitor.gpu.memory" = "Speicher in Benutzung";
+
+/* Monitor section. */
+"monitor.section.processes" = "Prozesse";
+
+/* Accessibility label of the list picker. */
+"monitor.processes.sort" = "Sortieren nach";
+
+/* Sort processes by CPU. */
+"monitor.processes.cpu" = "CPU";
+
+/* Sort processes by memory. */
+"monitor.processes.memory" = "Speicher";
+
+/* Process list title menus. */
+"monitor.processes.choices" = "Klicken für Auswahl";
+
+/* Process list title menus. */
+"monitor.processes.value" = "Wert";
+
+/* Process list title menus. */
+"monitor.processes.show" = "Zeigen";
+
+/* Process list title menus. */
+"monitor.processes.cpu.now" = "Auslastung jetzt";
+
+/* Process list title menus. */
+"monitor.processes.cpu.total" = "CPU-Zeit seit App-Start";
+
+/* Process list title menus. */
+"monitor.processes.memory.now" = "Belegt jetzt";
+
+/* Process list title menus. */
+"monitor.processes.memory.peak" = "Höchstwert";
+
+/* Process list title menus. */
+"monitor.processes.kind.all" = "Alle Prozesse";
+
+/* Process list title menus. */
+"monitor.processes.kind.apps" = "Nur Apps";
+
+/* Process list title menus. */
+"monitor.processes.kind.background" = "Nur Hintergrund";
+
+/* Process list: what the sorted number means. */
+"monitor.processes.caption.cpuNow" = "Auslastung jetzt";
+
+/* Process list: what the sorted number means. */
+"monitor.processes.caption.cpuTime" = "Zeit seit Start";
+
+/* Process list: what the sorted number means. */
+"monitor.processes.caption.inUse" = "Belegt jetzt";
+
+/* Process list: what the sorted number means. */
+"monitor.processes.caption.peak" = "Höchstwert";
+
+/* Process list: what the sorted number means. */
+"monitor.processes.caption.perSecond" = "pro Sekunde";
+
+/* Process list: what the sorted number means. */
+"monitor.processes.caption.sinceStart" = "Seit Systemstart";
+
+/* Process list: chip while rows are filtered. */
+"monitor.processes.filter.apps" = "Nur Apps";
+
+/* Process list: chip while rows are filtered. */
+"monitor.processes.filter.background" = "Nur Hintergrund-Prozesse";
+
+/* Process list: chip while rows are filtered. */
+"monitor.processes.filter.vpn" = "Nur über VPN";
+
+/* Process list: chip while rows are filtered. */
+"monitor.processes.filter.direct" = "Nur ohne VPN";
+
+/* Process list: chip while rows are filtered. */
+"monitor.processes.filter.clear" = "Filter entfernen, alle zeigen";
+
+/* No process uses CPU right now. */
+"monitor.processes.empty" = "Gerade keine nennenswerte Last";
+
+/* Number of processes in an app row. */
+"monitor.processes.count %@" = "%@ Prozesse";
+
+/* Note below the process list. */
+"monitor.processes.footer %@ %@" = "Nur Prozesse dieses Benutzers (%1$@). %2$@ Systemprozesse sind ohne Administratorrechte nicht lesbar.";
+
+/* Menu item. */
+"monitor.processes.activate" = "In den Vordergrund holen";
+
+/* Menu item and confirm button. */
+"monitor.processes.quit" = "Beenden";
+
+/* Menu item. */
+"monitor.processes.forceQuit" = "Sofort beenden …";
+
+/* Confirm button. */
+"monitor.processes.forceQuit.button" = "Sofort beenden";
+
+/* Confirmation title. */
+"monitor.processes.confirm.forceQuit %@" = "„%@“ sofort beenden?";
+
+/* Confirmation text. */
+"monitor.processes.confirm.forceQuit.message" = "Nicht gesicherte Änderungen gehen verloren.";
+
+/* Confirmation title for a process that is not an app. */
+"monitor.processes.confirm.quit %@" = "„%@“ beenden?";
+
+/* Confirmation text. */
+"monitor.processes.confirm.quit.message" = "Der Prozess wird gebeten, sich zu beenden. Apps, die ihn verwenden, können danach Fehler melden.";
+
+/* Cancel button. */
+"monitor.processes.cancel" = "Abbrechen";
+
+/* Note below the process list when macOS shows every process. */
+"monitor.processes.footer.all %@" = "Alle Prozesse (%@). Beenden nur bei eigenen Prozessen.";
+
+/* Placeholder of the process search. */
+"monitor.processes.search" = "Prozesse suchen";
+
+/* Clears the process search. */
+"monitor.processes.search.clear" = "Suche löschen";
+
+/* No process matches the search. */
+"monitor.processes.noMatch %@" = "Kein aktiver Prozess passt zu „%@“";
+
+/* Header button: wider panel with more detail. */
+"panel.expand" = "Breite Ansicht";
+
+/* Header button: back to the compact panel. */
+"panel.collapse" = "Schmale Ansicht";
+
+/* Time since the Mac was started. */
+"monitor.health.uptime %@" = "Eingeschaltet seit %@";
+
+/* Tooltip of the restart chip. */
+"monitor.health.reasons.help" = "Warum MacHorus einen Neustart vorschlägt";
+
+/* No restart needed. */
+"monitor.health.restart.none" = "Kein Neustart nötig";
+
+/* Restart suggestion, low. */
+"monitor.health.restart.low" = "Neustart bei Gelegenheit";
+
+/* Restart suggestion, medium. */
+"monitor.health.restart.medium" = "Neustart empfohlen";
+
+/* Restart suggestion, high. */
+"monitor.health.restart.high" = "Neustart nötig";
+
+/* Reason: long uptime. */
+"monitor.health.reason.uptime %@" = "Seit %@ nicht neu gestartet";
+
+/* Reason: swap in use; amount and share of memory. */
+"monitor.health.reason.swap %@ %@" = "%1$@ ausgelagert (%2$@ des Arbeitsspeichers)";
+
+/* Reason: memory pressure warning. */
+"monitor.health.reason.warning" = "Speicherdruck: Warnung";
+
+/* Reason: memory pressure critical. */
+"monitor.health.reason.critical" = "Speicherdruck: kritisch";
+
+/* The rules behind the restart suggestion. */
+"monitor.health.rules" = "Neustart empfohlen nach 7/14/30 Tagen Laufzeit, bei Auslagerung ab 25/50/100 % des Arbeitsspeichers oder bei hohem Speicherdruck.";
+
+
+
+/* Panel section with all settings. */
+"panel.tab.settings" = "Einstellungen";
+
+/* Settings section: features. */
+"settings.section.features" = "Funktionen";
+
+/* Settings section: privacy and permissions. */
+"settings.section.privacy" = "Datenschutz";
+
+/* Settings section: about the app. */
+"settings.section.about" = "Info";
+
+/* Ring label. */
+"overview.ring.cpu" = "CPU";
+
+/* Ring label. */
+"overview.ring.memory" = "Speicher";
+
+/* Ring label. */
+"overview.ring.disk" = "Disk";
+
+/* Ring label. */
+"overview.ring.battery" = "Akku";
+
+/* Hint: little free disk space. */
+"overview.hint.disk" = "Wenig Speicherplatz";
+
+/* Free space and its share. */
+"overview.hint.disk.detail %@ %@" = "%1$@ frei (%2$@ der Festplatte)";
+
+/* Hint: worn battery. */
+"overview.hint.battery" = "Akku verschlissen";
+
+/* Battery capacity left. */
+"overview.hint.battery.detail %@" = "Nur noch %@ der ursprünglichen Kapazität";
+
+/* Hint: the Mac slows down to cool. */
+"overview.hint.thermal" = "Mac wird wegen Wärme gedrosselt";
+
+/* Feature title. */
+"feature.monitor.menubar.title" = "Werte in der Menüleiste";
+
+/* Feature summary. */
+"feature.monitor.menubar.summary" = "CPU, Speicher, Netzwerk und mehr direkt in der Menüleiste; gemessen nur, wenn der Bildschirm an ist";
+
+/* Menu bar caption: memory. */
+"menubar.caption.memory" = "RAM";
+
+/* Menu bar caption: temperature. */
+"menubar.caption.temperature" = "TEMP";
+
+/* Menu bar caption: battery. */
+"menubar.caption.battery" = "AKKU";
+
+/* Menu bar option. */
+"menubar.item.cpu" = "CPU";
+
+/* Menu bar option. */
+"menubar.item.memory" = "Speicher";
+
+/* Menu bar option. */
+"menubar.item.gpu" = "Grafik";
+
+/* Menu bar option. */
+"menubar.item.temperature" = "Temperatur";
+
+/* Menu bar option. */
+"menubar.item.network" = "Netzwerk";
+
+/* Menu bar option. */
+"menubar.item.battery" = "Akku";
+
+/* Accessibility: an alert is active. */
+"alerts.accessibility" = "Alarm aktiv";
+
+/* Feature title. */
+"feature.monitor.alerts.title" = "Alarme";
+
+/* Feature summary. */
+"feature.monitor.alerts.summary" = "Warnt bei dauerhafter Last, Hitze, Speicherdruck, voller Festplatte oder leerem Akku – mit Symbol in der Menüleiste und auf Wunsch als Mitteilung";
+
+/* Alert option. */
+"alerts.notifications" = "Auch als Mitteilung senden";
+
+/* Alert title. */
+"alerts.cpuBusy.title" = "CPU dauerhaft ausgelastet";
+
+/* Alert rule. */
+"alerts.cpuBusy.detail %@ %@" = "Mindestens %1$@ über %2$@";
+
+/* Alert title. */
+"alerts.hot.title" = "Mac sehr heiß";
+
+/* Alert rule. */
+"alerts.hot.detail %@" = "CPU über %@ oder seit einer Minute von macOS gedrosselt";
+
+/* Alert title. */
+"alerts.memoryPressure.title" = "Speicherdruck kritisch";
+
+/* Alert rule. */
+"alerts.memoryPressure.detail" = "Seit mindestens 30 Sekunden";
+
+/* Alert title. */
+"alerts.diskFull.title" = "Startvolume fast voll";
+
+/* Alert rule. */
+"alerts.diskFull.detail %@" = "Weniger als %@ frei";
+
+/* Alert title. */
+"alerts.batteryLow.title" = "Akku fast leer";
+
+/* Alert rule. */
+"alerts.batteryLow.detail %@" = "Unter %@, kein Netzteil angeschlossen";
+
+/* Tab title. */
+"panel.tab.tools" = "Werkzeuge";
+
+/* Category title. */
+"category.support.title" = "Updates & Netzwerk";
+
+/* Feature title. */
+"feature.display.keepAwake.title" = "Wachhalten";
+
+/* Feature summary. */
+"feature.display.keepAwake.summary" = "Verhindert den Ruhezustand – 30 Minuten bis unbegrenzt, auf Wunsch auch für den Bildschirm";
+
+/* Feature title. */
+"feature.audio.micMute.title" = "Alle Mikrofone stumm";
+
+/* Feature summary. */
+"feature.audio.micMute.summary" = "Schaltet mit einem Klick alle Mikrofone stumm, auch Headsets und Webcams";
+
+/* Feature title. */
+"feature.support.updates.title" = "Software-Updates";
+
+/* Feature summary. */
+"feature.support.updates.summary" = "Was Munki und macOS installieren wollen und ob dafür ein Neustart nötig ist; nur lokale Dateien";
+
+/* Feature title. */
+"feature.tools.ports.title" = "Offene Ports";
+
+/* Feature summary. */
+"feature.tools.ports.summary" = "Welche deiner Apps auf welchem TCP-Port wartet, mit Beenden; für Entwickler";
+
+/* Tools page without tools. */
+"tools.empty" = "Alle Werkzeuge sind ausgeschaltet. In den Einstellungen kannst du sie einschalten.";
+
+/* Button. */
+"tools.empty.open" = "Einstellungen öffnen";
+
+/* Card title. */
+"tools.keepAwake.title" = "Wachhalten";
+
+/* Keep awake state. */
+"tools.keepAwake.off" = "Aus – der Mac geht wie gewohnt in den Ruhezustand";
+
+/* Keep awake state. */
+"tools.keepAwake.untilOff" = "An, bis du es ausschaltest";
+
+/* Keep awake state; %@ = time. */
+"tools.keepAwake.until %@" = "An bis %@";
+
+/* Duration chip; %@ = minutes. */
+"tools.keepAwake.minutes %@" = "%@ Min.";
+
+/* Duration chip; %@ = hours. */
+"tools.keepAwake.hours %@" = "%@ Std.";
+
+/* Checkbox. */
+"tools.keepAwake.display" = "Bildschirm bleibt an";
+
+/* Button. */
+"tools.keepAwake.stop" = "Ausschalten";
+
+/* Card title. */
+"tools.mic.title" = "Mikrofone";
+
+/* Button. */
+"tools.mic.mute" = "Alle stumm schalten";
+
+/* Button. */
+"tools.mic.unmute" = "Mikrofone wieder an";
+
+/* Microphone state. */
+"tools.mic.allMuted" = "Alle stumm, auch neu angeschlossene";
+
+/* Microphone state; %@ = count. */
+"tools.mic.someLive %@" = "Stumm; ohne Stummschalter: %@";
+
+/* Microphone state; %@ = count. */
+"tools.mic.live %@" = "%@ Mikrofone an";
+
+/* Chip: the device offers no mute. */
+"tools.mic.noControl" = "Nicht stumm schaltbar";
+
+/* Card title. */
+"tools.updates.title" = "Software-Updates";
+
+/* Updates state. */
+"tools.updates.unknown" = "Keine Informationen gefunden";
+
+/* Updates state. */
+"tools.updates.none" = "Alles aktuell";
+
+/* Updates state; %@ = count. */
+"tools.updates.count %@" = "%@ ausstehend";
+
+/* Updates state; %@ = relative time. */
+"tools.updates.checked %@" = "geprüft %@";
+
+/* Chip. */
+"tools.updates.restart" = "Neustart";
+
+/* Problems; %@ = item names. */
+"tools.updates.problems %@" = "Fehlgeschlagen: %@";
+
+/* Button. */
+"tools.updates.openMunki" = "Managed Software Center öffnen";
+
+/* Button. */
+"tools.updates.openSystem" = "Softwareupdate öffnen";
+
+/* Card title. */
+"tools.ports.title" = "Offene Ports";
+
+/* Ports state. */
+"tools.ports.none" = "Keine deiner Apps wartet auf einem TCP-Port";
+
+/* Chip: only reachable from this Mac. */
+"tools.ports.local" = "Nur lokal";
+
+/* Chip: reachable from the network. */
+"tools.ports.network" = "Im Netz";
+
+/* Menu item. */
+"tools.ports.open" = "Im Browser öffnen";
+
+/* Menu item. */
+"tools.ports.copy" = "Adresse kopieren";
+
+/* Context menu item. */
+"menu.muteMicrophones" = "Alle Mikrofone stumm";
+
+/* Microphone state, one device. */
+"tools.mic.liveOne" = "1 Mikrofon an";
+
+/* Overview hint; %@ = count. */
+"overview.hints.updates %@" = "%@ Updates ausstehend";
+
+/* Overview hint detail. */
+"overview.hints.updates.detail" = "In den Werkzeugen ansehen und installieren";
+
+/* Overview hint detail. */
+"overview.hints.updates.restart" = "Mindestens eines startet den Mac beim Installieren neu";
+
+/* Overview hint, one update. */
+"overview.hints.updates.one" = "1 Update ausstehend";
+
+/* Button: arrange the monitor cards. */
+"monitor.arrange" = "Anordnen";
+
+/* Button. */
+"monitor.arrange.reset" = "Standard";
+
+/* Button. */
+"monitor.arrange.done" = "Fertig";
+
+/* Permission name. */
+"permission.systemAudio" = "Systemaudio-Aufnahme";
+
+/* Who uses a microphone; followed by names. */
+"tools.mic.usedBy" = "Mikrofon benutzt von:";
+
+/* No app uses a microphone. */
+"tools.mic.usedByNone" = "Kein Programm benutzt gerade ein Mikrofon";
+
+/* Who plays sound; followed by names. */
+"tools.sound.playedBy" = "Ton von:";
+
+/* Card title. */
+"tools.mixer.title" = "Ton pro App";
+
+/* Mixer state. */
+"tools.mixer.nonePlaying" = "Gerade spielt keine App Ton";
+
+/* Mixer state; %@ = count. */
+"tools.mixer.playing %@" = "%@ Apps spielen gerade Ton";
+
+/* No apps. */
+"tools.mixer.empty" = "Keine App mit Ton gefunden";
+
+/* Help: playing. */
+"tools.mixer.isPlaying" = "Spielt gerade Ton";
+
+/* Help: tap failed. */
+"tools.mixer.failed" = "Lautstärke ließ sich nicht ändern; die App spielt unverändert";
+
+/* Help. */
+"tools.mixer.mute" = "Stumm schalten";
+
+/* Help. */
+"tools.mixer.unmute" = "Ton wieder an";
+
+/* Consent missing. */
+"tools.mixer.denied" = "macOS hat MacHorus „Systemaudio-Aufnahme“ nicht erlaubt; die Lautstärke einzelner Apps bleibt unverändert.";
+
+/* Where to switch system audio recording on after a refusal. */
+"tools.mixer.deniedHow" = "Systemeinstellungen → Datenschutz & Sicherheit → Bildschirm- & Systemaudioaufnahme: MacHorus unten bei „Nur Systemaudioaufnahme“ einschalten, nicht oben bei der Bildschirmaufnahme. macOS fragt dort nach einem Administrator-Passwort.";
+
+/* Button: show the macOS consent dialog again. */
+"tools.mixer.askAgain" = "Erneut fragen";
+
+/* Button: ask macOS for system audio recording now. */
+"tools.mixer.allow" = "Erlauben";
+
+/* Button. */
+"tools.mixer.openSettings" = "Einstellungen";
+
+/* Privacy note. */
+"tools.mixer.privacy" = "Für die Lautstärke pro App fragt macOS einmal nach „Systemaudio-Aufnahme“. MacHorus nimmt nichts auf und speichert nichts.";
+
+/* Feature title. */
+"feature.audio.mixer.title" = "Ton pro App";
+
+/* Feature summary. */
+"feature.audio.mixer.summary" = "Lautstärke und Stummschalten pro App; benötigt „Systemaudio-Aufnahme“ und greift nur ein, wenn eine App nicht auf 100 % steht";
+
+/* Mixer state, one app. */
+"tools.mixer.playingOne" = "1 App spielt gerade Ton";
+
+/* Overview box title. */
+"audio.box.title" = "Ton & Mikrofon";
+
+/* Button; %@ = count. */
+"audio.box.more %@" = "Apps (%@)";
+
+/* Button. */
+"audio.box.fewer" = "Weniger Apps";
+
+/* Slider for the whole Mac's output level in the sound box. */
+"audio.volume.title" = "Gesamtlautstärke";
+
+/* Button left of the overall volume: mute the output. */
+"audio.volume.mute" = "Ton aus";
+
+/* Same button while the output is muted. */
+"audio.volume.unmute" = "Ton ein";
+
+/* Sound output and input switching (audio.devices). */
+"feature.audio.devices.title" = "Ausgabe und Eingang wählen";
+"feature.audio.devices.summary" = "Zwischen Headset, Lautsprechern und Mikrofonen wechseln – direkt in „Ton & Mikrofon“";
+"audio.devices.output" = "Tonausgabe";
+"audio.devices.input" = "Toneingang";
+
+/* Clipboard history (clipboard.history). */
+"clipboard.title" = "Zwischenablage";
+"feature.clipboard.history.title" = "Verlauf der Zwischenablage";
+"feature.clipboard.history.summary" = "Kopiertes wiederfinden und einfügen wie unter Windows (Win+V); nur im Arbeitsspeicher, nach dem Neustart gelöscht, Passwortmanager ausgenommen";
+"settings.clipboard.limit" = "Maximaler Speicherverbrauch von MacHorus. Für ältere Macs 100 MB, bei vielen kopierten Bildern 500 MB. Wird die Grenze erreicht, fallen die ältesten 50 MB des Verlaufs weg.";
+"clipboard.search" = "Verlauf durchsuchen";
+"clipboard.summary %@ %@" = "%1$@ Einträge · %2$@";
+"clipboard.summary.one %@" = "1 Eintrag · %@";
+"clipboard.clear" = "Alles löschen";
+"clipboard.empty" = "Noch nichts kopiert. Kopiertes erscheint hier – ein Klick legt es zurück in die Zwischenablage, dann ⌘V.";
+"clipboard.noMatch" = "Kein Eintrag passt zur Suche.";
+"clipboard.justNow" = "gerade eben";
+"clipboard.pick.help" = "In die Zwischenablage legen, dann mit ⌘V einfügen";
+"clipboard.remove" = "Aus dem Verlauf entfernen";
+"clipboard.kind.image" = "Bild";
+
+/* Appearance: light, dark or like the system (settings). */
+"appearance.system" = "Wie das System";
+"appearance.light" = "Hell";
+"appearance.dark" = "Dunkel";
+"appearance.help" = "Erscheinungsbild";
+
+/* Why the last copy was not recorded (clipboard card). */
+"clipboard.skip.passwordManager" = "Letzte Kopie nicht gespeichert: aus einem Passwortmanager";
+"clipboard.skip.markedPrivate" = "Letzte Kopie nicht gespeichert: von der App als privat markiert";
+"clipboard.skip.tooLarge" = "Letzte Kopie nicht gespeichert: größer als 50 MB";
+
+/* Accessory batteries and Wi-Fi quality. */
+"accessory.keyboard" = "Tastatur";
+"accessory.mouse" = "Maus";
+"accessory.trackpad" = "Trackpad";
+"accessory.other" = "Zubehör";
+"overview.hint.accessory %@" = "Akku von %@ fast leer";
+"overview.hint.wifi" = "WLAN-Signal schwach";
+"overview.hint.wifi.detail %@" = "%@ dBm – näher an den Router gehen oder Kabel verwenden";
+"monitor.network.wifi.signal" = "WLAN-Signal";
+"monitor.network.wifi.link" = "WLAN-Verbindung";
+"monitor.network.wifi.good" = "gut";
+"monitor.network.wifi.fair" = "mittel";
+"monitor.network.wifi.weak" = "schwach";
+"monitor.network.wifi.channel %@" = "Kanal %@";
+/* Overview status point */
+"overview.hint.dismiss" = "Ausblenden, bis sich etwas ändert";
+
+/* Overview status point */
+"overview.hint.level.info" = "Hinweis";
+
+/* Overview status point */
+"overview.hint.level.warning" = "Warnung";
+
+/* Overview status point */
+"overview.hint.level.critical" = "Kritisch";
+
+/* Clipboard card */
+"clipboard.settings" = "Kürzel der Zwischenablage";
+
+/* Clipboard card */
+"clipboard.shortcut.title" = "Kürzel zum Öffnen";
+
+/* Clipboard card */
+"clipboard.shortcut.record" = "Klicken und neues Kürzel drücken";
+
+/* Clipboard card */
+"clipboard.shortcut.recording" = "Tasten drücken … (Esc: abbrechen)";
+
+/* Clipboard card */
+"clipboard.shortcut.none" = "Kein Kürzel";
+
+/* Clipboard card */
+"clipboard.shortcut.remove" = "Keins";
+
+/* Clipboard card */
+"clipboard.shortcut.taken" = "Dieses Kürzel nutzt schon eine andere App. Bitte ein anderes wählen.";
+
+/* Clipboard card */
+"clipboard.shortcut.failed" = "Das Kürzel ließ sich nicht setzen. Bitte ein anderes wählen.";
+
+/* Clipboard card */
+"clipboard.shortcut.needsModifier" = "Zusammen mit ⌘, ⌃ oder ⌥ drücken.";
+
+/* Clipboard card */
+"clipboard.shortcut.hint" = "Öffnet die Liste von überall: tippen zum Suchen, ↑↓ zum Auswählen, ↩ legt den Eintrag in die Zwischenablage, dann ⌘V. Ohne Berechtigung.";
+
+/* Clipboard card */
+"clipboard.menu.pick" = "In die Zwischenablage";
+
+/* Clipboard card */
+"clipboard.menu.plain" = "Als reinen Text in die Zwischenablage";
+
+/* Clipboard card */
+"clipboard.menu.pin" = "Anheften";
+
+/* Clipboard card */
+"clipboard.menu.unpin" = "Lösen";
+
+/* Clipboard card */
+"clipboard.menu.recognize" = "Text und QR-Code erkennen";
+
+/* Clipboard card */
+"clipboard.pinned" = "Angeheftet";
+
+/* Clipboard card */
+"clipboard.recognize.title" = "Im Bild erkannt";
+
+/* Clipboard card */
+"clipboard.recognize.close" = "Schließen";
+
+/* Clipboard card */
+"clipboard.recognize.working" = "Wird gelesen …";
+
+/* Clipboard card */
+"clipboard.recognize.none" = "Kein Text und kein Code erkannt.";
+
+/* Clipboard card */
+"clipboard.recognize.link" = "Link – wird nicht automatisch geöffnet. Bitte erst prüfen.";
+
+/* Clipboard card */
+"clipboard.recognize.copy" = "Kopieren";
+
+/* Network per app */
+"monitor.processes.network" = "Netzwerk";
+
+/* Network per app */
+"monitor.traffic.all" = "Alle";
+
+/* Network per app */
+"monitor.traffic.vpn" = "VPN";
+
+/* Network per app */
+"monitor.traffic.direct" = "Ohne VPN";
+
+/* Network per app */
+"monitor.traffic.route" = "Verbindungsweg";
+
+/* Network per app */
+"monitor.traffic.unavailable" = "nettop ließ sich nicht starten; ohne es kann MacHorus den Verkehr pro App nicht messen.";
+
+/* Network per app */
+"monitor.traffic.measuring" = "Wird gemessen …";
+
+/* Network per app */
+"monitor.traffic.none" = "Gerade kein Datenverkehr.";
+
+/* Network per app */
+"monitor.traffic.footer" = "Alle Programme inkl. Systemdienste · gemessen mit nettop alle 3 s, nur solange die Liste offen ist";
+
+/* Network per app */
+"monitor.traffic.footer.vpn" = "VPN aktiv: „VPN“ = durch den Tunnel, „Ohne VPN“ = direkt ins Internet";
+
+/* Network per app */
+"monitor.traffic.onlyVPN" = "VPN";
+
+/* Network per app */
+"monitor.traffic.onlyDirect" = "ohne VPN";
+
+/* Network per app */
+"monitor.traffic.mixed %@ %@" = "VPN %1$@ · ohne VPN %2$@";
+
+/* Network check */
+"feature.support.networkCheck.title" = "Netzwerkprüfung";
+
+/* Network check */
+"feature.support.networkCheck.summary" = "Liegt es am Mac, am WLAN oder am Internet? Verbindet sich nur, wenn du die Prüfung startest";
+
+/* Network check */
+"tools.network.title" = "Netzwerkprüfung";
+
+/* Network check */
+"tools.network.subtitle" = "Verbindung, Router, DNS und Internet in einem Klick";
+
+/* Network check */
+"tools.network.run" = "Prüfung starten";
+
+/* Network check */
+"tools.network.again" = "Erneut prüfen";
+
+/* Network check */
+"tools.network.running" = "Wird geprüft …";
+
+/* Network check */
+"tools.network.step.connection" = "Verbindung";
+
+/* Network check */
+"tools.network.step.router" = "Router";
+
+/* Network check */
+"tools.network.step.dns" = "Namensauflösung (DNS)";
+
+/* Network check */
+"tools.network.step.internet" = "Internet";
+
+/* Network check */
+"tools.network.failed" = "keine Antwort";
+
+/* Network check */
+"tools.network.router.silent" = "antwortet nicht auf Ping (normal)";
+
+/* Network check */
+"tools.network.vpn %@" = "VPN aktiv: %@";
+
+/* Network check */
+"tools.network.verdict.allGood" = "Alles in Ordnung";
+
+/* Network check */
+"tools.network.verdict.routerSilent" = "Alles in Ordnung (der Router ignoriert nur Pings)";
+
+/* Network check */
+"tools.network.verdict.noConnection" = "Keine Verbindung: WLAN oder Kabel prüfen";
+
+/* Network check */
+"tools.network.verdict.noRouter" = "Der Router antwortet nicht: Router oder WLAN prüfen";
+
+/* Network check */
+"tools.network.verdict.noDNS" = "Router erreichbar, aber die Namensauflösung (DNS) funktioniert nicht";
+
+/* Network check */
+"tools.network.verdict.noInternet" = "Lokales Netz in Ordnung, aber kein Internet – Anbieter oder VPN prüfen";
+
+/* Network check */
+"tools.network.verdict.loginPage" = "Eine WLAN-Anmeldeseite blockiert den Zugang – im Browser anmelden";
+
+/* Network check */
+"tools.network.privacy" = "Nur auf Klick: eine DNS-Abfrage und eine Anfrage an captive.apple.com – dieselbe Adresse, die macOS selbst prüft. Es werden keine Daten über den Mac gesendet.";
+
+/* Alert culprit */
+"alerts.culprit %@ %@" = "Hauptverursacher: %1$@ (%2$@)";
+
+/* Alert culprit */
+"alerts.culprit.quit" = "Beenden …";
+
+/* Keep awake */
+"tools.keepAwake.whileAppChoose" = "Solange eine App läuft …";
+
+/* Keep awake */
+"tools.keepAwake.whileApp %@" = "Solange %@ läuft";
+
+/* Keep awake */
+"tools.keepAwake.untilQuit %@" = "An, bis %@ beendet wird";
+
+/* Drives, devices, printers */
+"feature.tools.drives.title" = "Laufwerke";
+
+/* Drives, devices, printers */
+"feature.tools.drives.summary" = "USB-Sticks, Speicherkarten und externe Platten sicher auswerfen";
+
+/* Drives, devices, printers */
+"feature.tools.hardware.title" = "Angeschlossene Geräte";
+
+/* Drives, devices, printers */
+"feature.tools.hardware.summary" = "Bildschirme, Netzteil, USB-Geräte und Docks, Akkus von Tastatur und Maus";
+
+/* Drives, devices, printers */
+"feature.tools.printers.title" = "Drucker";
+
+/* Drives, devices, printers */
+"feature.tools.printers.summary" = "Druckaufträge sehen, hängende erkennen und abbrechen";
+
+/* Drives, devices, printers */
+"tools.drives.title" = "Laufwerke";
+
+/* Drives, devices, printers */
+"tools.drives.none" = "Keine externen Laufwerke";
+
+/* Drives, devices, printers */
+"tools.drives.hint" = "Vor dem Abziehen auswerfen";
+
+/* Drives, devices, printers */
+"tools.drives.free %@ %@" = "%1$@ frei von %2$@";
+
+/* Drives, devices, printers */
+"tools.drives.eject" = "Auswerfen";
+
+/* Drives, devices, printers */
+"tools.drives.busy" = "Wird noch verwendet – Dateien und Programme darauf schließen und erneut auswerfen.";
+
+/* Drives, devices, printers */
+"tools.hardware.title" = "Angeschlossen";
+
+/* Drives, devices, printers */
+"tools.hardware.subtitle" = "Bildschirme, Strom und Geräte an diesem Mac";
+
+/* Drives, devices, printers */
+"tools.hardware.adapter" = "Netzteil";
+
+/* Drives, devices, printers */
+"tools.hardware.hubs %@" = "Außerdem %@ USB-Hubs (Docks, Monitore, Tastaturen)";
+
+/* Drives, devices, printers */
+"tools.printers.title" = "Drucker";
+
+/* Drives, devices, printers */
+"tools.printers.none" = "Keine Druckaufträge";
+
+/* Drives, devices, printers */
+"tools.printers.count %@" = "%@ Aufträge in der Warteschlange";
+
+/* Drives, devices, printers */
+"tools.printers.stuck %@" = "%@ hängen – abbrechen und neu drucken";
+
+/* Drives, devices, printers */
+"tools.printers.stopped %@" = "%@ ist angehalten";
+
+/* Drives, devices, printers */
+"tools.printers.cancel" = "Abbrechen";
+
+/* Drives, devices, printers */
+"tools.printers.cancelFailed" = "Ließ sich nicht abbrechen (nur eigene Aufträge).";
+
+/* Drives, devices, printers */
+"tools.printers.state.pending" = "wartet";
+
+/* Drives, devices, printers */
+"tools.printers.state.held" = "angehalten";
+
+/* Drives, devices, printers */
+"tools.printers.state.printing" = "druckt";
+
+/* Drives, devices, printers */
+"tools.printers.state.stopped" = "gestoppt";
+
+/* Monitor layout */
+"feature.monitor.system.title" = "Systemmonitor";
+
+/* Monitor layout */
+"feature.monitor.system.summary" = "CPU, Grafik, Speicher, Netzwerk, Festplatte, Akku, Temperaturen und Prozesse; welche Widgets erscheinen, legst du über „Anordnen“ fest";
+
+/* Monitor layout */
+"monitor.arrange.expanded" = "Breite Ansicht";
+
+/* Alert rules */
+"alerts.rule.for" = "für";
+
+/* Alert rules */
+"alerts.rule.from" = "ab";
+
+/* Alert rules */
+"alerts.rule.below" = "unter";
+
+/* Alert rules */
+"alerts.rule.critical" = "sobald macOS ihn 30 s lang als kritisch meldet";
+
+/* Alert rules */
+"alerts.rule.diskMode" = "Prozent oder feste Größe – bei großen Platten sind 10 % oft noch viel Platz";
+
+/* Alert rules */
+"alerts.rule.inPercent" = "in Prozent";
+
+/* Alert rules */
+"alerts.rule.inGigabytes" = "in GB";
+
+/* Process details */
+"monitor.traffic.now" = "Aktuell";
+
+/* Process details */
+"monitor.traffic.span" = "Zeitraum";
+
+/* Process details */
+"monitor.traffic.footer.total" = "Summe seit dem Systemstart. MacHorus zählt jede Minute mit (bei offener Liste alle 3 s); sehr kurze Verbindungen können fehlen.";
+
+/* Process details */
+"monitor.details.hint" = "Details anzeigen";
+
+/* Process details */
+"monitor.details.running" = "Läuft seit";
+
+/* Process details */
+"monitor.details.cpuTime" = "CPU-Zeit gesamt";
+
+/* Process details */
+"monitor.details.memory" = "Speicher";
+
+/* Process details */
+"monitor.details.peak %@" = "max. %@";
+
+/* Process details */
+"monitor.details.networkNow" = "Netzwerk aktuell";
+
+/* Process details */
+"monitor.details.networkTotal" = "Netzwerk seit Systemstart";
+
+/* Process details */
+"monitor.details.viaVPN" = "davon über VPN";
+
+/* Process details */
+"monitor.details.processes" = "Prozesse";
+
+/* Process details */
+"monitor.details.activate" = "Öffnen";
+
+/* Process details */
+"monitor.details.quit" = "Beenden";
+
+/* Process details */
+"monitor.details.forceQuit" = "Sofort beenden";
+
+/* Footer */
+"panel.selfUsage.title" = "MacHorus selbst";
+
+/* Tools notes */
+"tools.network.privacyShort" = "Nur auf Klick · nur Apples Prüfadresse";
+
+/* Feature, one line */
+"feature.monitor.menubar.short" = "Live-Werte neben dem Auge";
+
+/* Feature, one line */
+"feature.monitor.alerts.short" = "Last, Hitze, volle Platte";
+
+/* Feature, one line */
+"feature.display.keepAwake.short" = "Ruhezustand verhindern";
+
+/* Feature, one line */
+"feature.audio.micMute.short" = "Auch Headsets und Webcams";
+
+/* Feature, one line */
+"feature.support.updates.short" = "Munki und macOS";
+
+/* Feature, one line */
+"feature.tools.ports.short" = "Offene Ports (für Entwickler)";
+
+/* Feature, one line */
+"feature.audio.mixer.short" = "Lautstärke je App";
+
+/* Feature, one line */
+"feature.audio.devices.short" = "Headset, Lautsprecher, Mikrofon";
+
+/* Feature, one line */
+"feature.clipboard.history.short" = "Verlauf, nur im Arbeitsspeicher";
+
+/* Feature, one line */
+"feature.support.networkCheck.short" = "Mac, WLAN oder Internet?";
+
+/* Feature, one line */
+"feature.tools.drives.short" = "USB-Sticks sicher auswerfen";
+
+/* Feature, one line */
+"feature.tools.hardware.short" = "Monitore, Strom, USB-Geräte";
+
+/* Feature, one line */
+"feature.tools.printers.short" = "Hängende Aufträge abbrechen";
+
+/* Feature, one line */
+"feature.monitor.system.short" = "CPU, Speicher, Netz, Wärme";
+
+/* Settings */
+"features.summary.short" = "Ausgeschaltetes kostet nichts";
+
+/* Settings */
+"settings.openAtLogin.short" = "Startet automatisch nach der Anmeldung";
+
+/* Settings */
+"settings.clipboard.limitShort" = "Speichergrenze";
+
+/* Widgets */
+"widget.mac" = "Dieser Mac";
+
+/* Widgets */
+"widget.rings" = "Auslastung";
+
+/* Widgets */
+"widget.audio" = "Ton & Mikrofon";
+
+/* Widgets */
+"widget.group.overview" = "Übersicht";
+
+/* Widgets */
+"widget.group.monitor" = "Monitor";
+
+/* Widgets */
+"widget.group.tools" = "Werkzeuge";
+
+/* Widgets */
+"widget.empty" = "Diese Seite hat keine Widgets. Über „Anordnen“ → „Widget“ hinzufügen.";
+
+/* Widgets */
+"widget.add" = "Widget";
+
+/* Widgets */
+"widget.remove" = "Entfernen";
+
+/* Widgets */
+"widget.larger" = "Größer";
+
+/* Widgets */
+"widget.smaller" = "Kleiner";
+
+/* Widgets */
+"widget.allAdded" = "Alle Widgets sind schon auf dieser Seite.";
+
+/* Widgets */
+"widget.on" = "An";
+
+/* Widgets */
+"widget.off" = "Aus";
+
+/* Widgets */
+"widget.keepAwake.start" = "Wach halten";
+
+/* Widgets */
+"widget.audio.mute" = "Alle stumm";
+
+/* Widgets */
+"widget.audio.unmute" = "Mikrofone an";
+
+/* Network per app */
+"monitor.traffic.sinceStartShort" = "Seit Systemstart";
+
+/* VPN widget */
+"widget.vpn" = "VPN";
+
+/* VPN widget */
+"widget.vpn.off" = "Kein VPN verbunden";
+
+/* VPN widget */
+"widget.vpn.unknown" = "VPN verbunden";
+
+/* VPN widget */
+"widget.vpn.apps" = "Über VPN seit Systemstart";
+
+/* VPN widget */
+"widget.vpn.noApps" = "Noch kein Datenverkehr über den Tunnel.";
+
+/* VPN widget */
+"widget.vpn.footer" = "Name vom System oder vom VPN-Programm. Apps sortiert nach Datenmenge durch den Tunnel.";
+
+/* Widgets */
+"widget.addHelp" = "Zum Hinzufügen klicken";
+
+/* Widget details */
+"widget.summary.memoryOf %@" = "von %@";
+
+/* Widget details */
+"widget.summary.free" = "frei";
+
+/* Widget details */
+"widget.summary.thermalOK" = "Normal";
+
+/* Widget details */
+"widget.summary.thermalHigh" = "Gedrosselt";
+
+/* Widget details */
+"widget.extras.topApps" = "Größte Verbraucher";
+
+/* Widget details */
+"widget.extras.networkApps" = "Meiste Daten seit Systemstart";
+
+/* Widget details */
+"widget.extras.drives" = "Externe Laufwerke";
+
+/* Settings */
+"settings.language.title" = "Sprache";
+
+/* Settings */
+"settings.language.restart" = "MacHorus neu starten, um die Sprache zu wechseln";
+
+/* Widgets */
+"widget.collapse" = "Wieder verkleinern";
+
+/* Widgets */
+"widget.tapForMore" = "Klicken für mehr Details";
+
+/* Widgets */
+"widget.resize" = "Ziehen ändert die Größe: klein, mittel, groß";
+
+/* Widgets */
+"widget.audio.muted" = "Stumm";
+
+/* Widgets */
+"widget.tile.uptime" = "Eingeschaltet";
+
+/* Widgets */
+"widget.tile.displays" = "Bildschirme";
+
+
+/* Mac widget state. */
+"widget.mac.ok" = "Alles in Ordnung";
+
+/* Mac widget state. */
+"widget.mac.oneIssue" = "1 Hinweis";
+
+/* Mac widget state. */
+"widget.mac.issues %lld" = "%lld Hinweise";
+
+/* Widget list without rows. */
+"widget.list.empty" = "Noch keine Einträge.";
+
+/* Widget text. */
+"widget.extras.mac" = "Dieser Mac";
+
+/* Widget text. */
+"widget.audio.output" = "Ausgabe";
+
+/* Wide GPU widget: list title. */
+"widget.extras.gpu" = "Grafikchip";
+
+/* Small widget caption. */
+"widget.tile.notChecked" = "Nicht geprüft";
+
+
+/* Small widget caption. */
+"widget.tile.gpuMemory %@" = "%@ Speicher";
+
+/* Small widget caption. */
+"widget.tile.awake" = "Bleibt wach";
+
+/* Small widget caption. */
+"widget.tile.sleepsNormally" = "Ruhezustand normal";
+
+/* Small widget caption. */
+"widget.tile.clickToCheck" = "Klicken zum Prüfen";
+
+/* Small widget caption. */
+"widget.tile.available" = "verfügbar";
+
+/* Small widget caption. */
+"widget.tile.connected" = "verbunden";
+
+/* Small widget caption. */
+"widget.tile.jobs" = "Druckaufträge";
+
+/* Small widget caption. */
+"widget.tile.open" = "offene Ports";
+
+/* Small widget caption. */
+"widget.tile.copies" = "Kopien";
+
+/* Alerts page */
+"settings.section.alerts" = "Alarme";
+
+/* Alerts page */
+"alerts.openRules" = "Alarme einstellen …";
+
+/* Alerts page */
+"alerts.test" = "Testmitteilung";
+
+/* Alerts page */
+"alerts.test.title" = "MacHorus";
+
+/* Alerts page */
+"alerts.test.body" = "So sehen Alarme aus. Mitteilungen funktionieren.";
+
+/* Alerts page */
+"alerts.section.rules" = "Wann gewarnt wird";
+
+/* Alerts page */
+"alerts.footer" = "Alarme laufen im Hintergrund, auch bei geschlossenem Fenster: alle 4 s eine Messung, nur bei eingeschaltetem Bildschirm. Ein Alarm meldet sich höchstens alle 15 Minuten erneut.";
+
+/* Alerts page */
+"alerts.status.off" = "Ausgeschaltet – es wird nichts überwacht";
+
+/* Alerts page */
+"alerts.status.watching %@" = "%@ Alarme aktiv, gerade alles in Ordnung";
+
+/* Alerts page */
+"alerts.status.active %@" = "%@ Alarm gerade ausgelöst";
+
+/* Alerts page */
+"alerts.now %@" = "Aktuell: %@";
+
+/* Alerts page */
+"alerts.chip.active" = "Ausgelöst";
+
+/* Widget details */
+"widget.extras.sensors" = "Sensoren";
+
+/* Widget details */
+"widget.extras.battery" = "Akku";
+
+/* Updates widget: opens Managed Software Center (Munki), where the updates are installed. */
+"widget.updates.openMunki" = "Munki öffnen";
+
+/* Updates widget without Munki: opens Software Update in System Settings. */
+"widget.updates.openSettings" = "Einstellungen öffnen";
+
+/* Settings, Privacy: title of the permission list. */
+"privacy.section.permissions" = "Berechtigungen";
+
+/* Settings, Privacy: no active feature uses a permission. */
+"privacy.none" = "Keine eingeschaltete Funktion braucht eine Berechtigung.";
+
+/* Settings, Privacy: what MacHorus does with data (network check on). */
+"privacy.statement.onClick" = "MacHorus arbeitet nur auf diesem Mac. Es gibt kein Konto, und es werden keine Daten gesendet; ins Internet geht nur die Netzwerkprüfung, wenn du sie startest. Administratorrechte braucht MacHorus nicht.";
+
+/* Settings, Privacy: what MacHorus does with data (network check off). */
+"privacy.statement.offline" = "MacHorus arbeitet nur auf diesem Mac. Es gibt kein Konto, es werden keine Daten gesendet und keine Verbindungen ins Internet aufgebaut. Administratorrechte braucht MacHorus nicht.";
+
+/* Widget caption: the reading is impossible, the value shows "?". */
+"widget.reason.implausible" = "Unplausibler Messwert – Details mit „MacHorus --print-diagnosis“";
+
+/* Widget caption: network value missing because there is no connection. */
+"widget.reason.offline" = "Keine Netzwerkverbindung";
+
+/* Widget caption: a network filter or VPN client hides incoming traffic. */
+"widget.reason.networkFilter" = "Download nicht messbar (Netzwerkfilter oder VPN)";
+
+/* Widget caption: the Mac delivers no temperature sensor values. */
+"widget.reason.noSensors" = "Dieser Mac meldet keine Temperatur";
+
+/* Widget caption: the first reading has not arrived yet. */
+"widget.reason.measuring" = "Wird gemessen …";
+
+/* Widget caption: no value, for an unknown reason. */
+"widget.reason.noValue" = "Kein Messwert – Details mit „MacHorus --print-diagnosis“";
+
+/* Settings, Alerts: macOS has never been asked about notifications. */
+"alerts.permission.notAsked" = "macOS hat MacHorus noch nicht erlaubt, Mitteilungen zu zeigen.";
+
+/* Settings, Alerts: button that lets macOS ask for the notification permission. */
+"alerts.permission.allow" = "Mitteilungen erlauben";
+
+/* Settings, Alerts: notifications are switched off for MacHorus in macOS. */
+"alerts.permission.denied" = "In macOS ausgeschaltet: Systemeinstellungen → Mitteilungen → MacHorus";

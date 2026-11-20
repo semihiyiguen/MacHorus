@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# Xcode / SwiftPM build output
+build/
+DerivedData/
+.build/
+.swiftpm/
+xcuserdata/
+*.xcuserstate
+
+# Release artefacts
+dist/
+*.pkg
+*.dmg
+
+# Secrets and signing material - never commit
+*.p12
+*.cer
+*.key
+*.pem
+*.mobileconfig
+*.provisionprofile
+.env
+.env.*
+
+# Local-only notes and the private list of forbidden words for the pre-commit hook
+CLAUDE.local.md
+.githooks/*.local
+reference/
+
+# IDEs
+.idea/
+.vscode/
