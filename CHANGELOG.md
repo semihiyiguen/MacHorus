@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.31
+
+- **Much lower CPU with the panel open:** values no longer slide in with an animated number transition. That transition is drawn by the CPU with a blur on every refresh and cost 7–15% CPU on the Monitor page; now 0.5–2%.
+
 ## 1.0.30 – first public release
 
 - **Overview:** this Mac at a glance (model, macOS, uptime, restart advice, pending updates), load as colored rings, clipboard history, sound and microphones.

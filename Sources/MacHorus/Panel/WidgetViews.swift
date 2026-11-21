@@ -512,12 +512,10 @@ private struct RingsSummary: View {
                 Text(verbatim: MonitorFormat.percent(value))
                     .font(.system(size: 10, weight: .semibold, design: .rounded))
                     .monospacedDigit()
-                    .contentTransition(.numericText())
                     .lineLimit(1)
                     .minimumScaleFactor(0.7)
             }
             .frame(width: 30, height: 30)
-            .animation(.smooth(duration: 0.6), value: value)
             Text(title).font(.caption2).foregroundStyle(.secondary).lineLimit(1)
         }
         .frame(maxWidth: .infinity)
@@ -773,8 +771,6 @@ private struct MetricSummaryBody: View {
                 .monospacedDigit()
                 .lineLimit(1)
                 .minimumScaleFactor(0.6)
-                .contentTransition(.numericText())
-                .animation(.snappy, value: value(monitor))
             if let caption = caption(monitor) {
                 Text(verbatim: caption).font(.caption).foregroundStyle(.secondary).lineLimit(1)
                     .minimumScaleFactor(0.8)
@@ -1050,8 +1046,6 @@ private struct WidgetTile: View {
                 .monospacedDigit()
                 .lineLimit(1)
                 .minimumScaleFactor(0.55)
-                .contentTransition(.numericText())
-                .animation(.snappy, value: facts.value)
             if let caption = facts.caption {
                 Text(verbatim: caption)
                     .font(.caption2)

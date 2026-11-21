@@ -34,7 +34,8 @@ Only the Command Line Tools are needed; the Makefile pins `SDKROOT` to `MacOSX26
 7. Every source file keeps its SPDX header: `// SPDX-License-Identifier: GPL-3.0-or-later`.
 8. Code, comments, commit messages and documentation in English.
 9. Never commit secrets, signing material, personal data or private hostnames. The pre-commit hook (`scripts/install-hooks.sh`) checks staged changes against a local, git-ignored pattern list.
-10. Tests must not depend on a specific macOS version or on timing of a shared machine.
+10. No animated transitions on values that refresh (`.contentTransition(.numericText())`, implicit `.animation` on live values): SwiftUI draws them on the CPU every frame; it cost up to 15% CPU with the panel open.
+11. Tests must not depend on a specific macOS version or on timing of a shared machine.
 
 ## Useful launch arguments
 
