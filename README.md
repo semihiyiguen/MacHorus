@@ -32,7 +32,7 @@ No account. No telemetry. No admin rights. Nothing leaves your Mac.
 
 ## Download
 
-**[⬇ Download MacHorus 1.0.30 (DMG)](https://github.com/semihiyiguen/MacHorus/releases/latest)** · macOS 14.2+ · Apple Silicon & Intel
+**[⬇ Download the latest MacHorus (DMG)](https://github.com/semihiyiguen/MacHorus/releases/latest)** · macOS 14.2+ · Apple Silicon & Intel
 
 Drag MacHorus into Applications. This build is not notarized by Apple yet, so macOS asks once on the first start:
 
